@@ -20,7 +20,9 @@ module.exports = async function (context, req) {
             };
             
             // Send message to queue using SDK with Managed Identity
-            const queueUrl = `https://nsinghstorage.queue.core.windows.net/messages`;
+            const storageAccountName = process.env.StorageAccountName;
+            const queueName = process.env.QueueName;
+            const queueUrl = `https://${storageAccountName}.queue.core.windows.net/${queueName}`;
             const credential = new DefaultAzureCredential();
             const queueClient = new QueueClient(queueUrl, credential);
             
