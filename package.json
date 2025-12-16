@@ -1,0 +1,19 @@
+{
+	"name": "my-azure-function-app",
+	"version": "1.0.0",
+	"description": "Azure Function App with multiple functions",
+	"scripts": {
+		"start": "func start",
+		"build": "npm install",
+		"test": "echo \"No tests specified\" && exit 0"
+	},
+	"author": "Your Name",
+	"license": "MIT",
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"@azure/cosmos": "^4.0.0",
+		"@azure/identity": "^4.0.0",
+		"@azure/storage-queue": "^12.0.0"
+	},
+	"devDependencies": {}
+}

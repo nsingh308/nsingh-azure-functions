@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage__serviceUri": "https://nsinghstorage.blob.core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "CosmosDbEndpoint": "https://nsingh-dev.documents.azure.com",    
+    "CosmosDbDatabaseName": "nsingh-db",
+    "CosmosDbContainerName": "products",   
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=7165cf57-f29a-4d51-adef-0ed6e2949438;IngestionEndpoint=https://centralindia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://centralindia.livediagnostics.monitor.azure.com/;ApplicationId=91f7f7f9-51d3-4c56-b3a5-d8e45b5af626",
+    "AzureWebJobsSecretStorageType": "files",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_NODE_DEFAULT_VERSION": "~22",
+    "WEBSITE_RUN_FROM_PACKAGE": "1"
+  },
+  "ConnectionStrings": {},
+  "Host": {}
+}
